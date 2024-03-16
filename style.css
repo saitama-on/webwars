@@ -11,11 +11,12 @@ html,body{
 .outer{
   width: 100%;
   min-height: 100vh;
-  background: linear-gradient(45deg , #080808 , #6e197d);
-  color: #ffffff;
+  background-image: url(./bg.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
   position: relative;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   
 }
@@ -35,6 +36,7 @@ html,body{
   background-color: white;
   border: 1px solid rgba(255, 255, 255, 0.089);
   cursor: pointer;
+  right: 200px;
   
 }
   
@@ -109,3 +111,24 @@ html,body{
   border: black 1px dotted;
 }
 
+.s{
+  color: black;
+  width: 80%;
+  height: 40%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 70px;
+  left: 10px;
+}
+
+.s h3{
+  font-size: 30px;
+}
+
+.s button {
+  height: 40px;
+  width: 80px;
+}
