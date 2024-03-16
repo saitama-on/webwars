@@ -10,3 +10,9 @@ document.addEventListener("DOMContentLoaded", function() {
         window.location.href = "home.html";
     });
 });
+document.addEventListener("DOMContentLoaded", function() {
+    var productDiv = document.getElementById("helper");
+    productDiv.addEventListener("click", function() {
+        window.location.href = "fashion.html";
+    });
+});

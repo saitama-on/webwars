@@ -12,7 +12,6 @@
 body{
     background-image: linear-gradient(black,#510251);
     background-size: cover;
-    background-repeat: no-repeat;
 }
   .card {
     position: relative;
@@ -153,4 +152,32 @@ pre{
 h2{
     color:white;
     font-weight: 700;
+}
+
+
+@media (max-width: 900px) {
+  img{
+    height: 0px;
+    width: 0px;
+  }
+ 
+}
+
+@media (max-width: 600px) {
+   
+  .nav-bar{
+    justify-content: center;
+  }
+
+  #home{
+    font-size: 10px;
+  }
+
+  #text-image{
+    font-size: 10px;
+  }
+
+  .helper{
+    font-size: 10px;
+  }
 }
