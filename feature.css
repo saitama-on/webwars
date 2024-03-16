@@ -58,7 +58,7 @@ body{
     background-color: white;
     color:black;
   }
-  .helper{
+  #helper{
     width:30%;
     height:70%;
     border-radius: 1.8vh;
@@ -69,7 +69,7 @@ body{
     justify-content: center;
     align-items: center;
   }
-  .helper:hover{
+  #helper:hover{
     background-color: white;
     color:black;
   }
@@ -177,7 +177,7 @@ h2{
     font-size: 10px;
   }
 
-  .helper{
+  #helper{
     font-size: 10px;
   }
 }
