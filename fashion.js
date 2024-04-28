@@ -1,8 +1,6 @@
-// This could be triggered by an event, like submitting a form
+
 document.getElementById("generateButton").addEventListener("click", function(event){
-    event.preventDefault(); // Prevent the form from submitting normally
-    
-    // Fetch the data
+    event.preventDefault();
     fetch('https://tti-server.onrender.com/generate', {
         method: 'POST',
         headers: {
